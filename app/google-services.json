@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "207783019679",
+    "project_id": "face-detection-app-a9a72",
+    "storage_bucket": "face-detection-app-a9a72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207783019679:android:a83622047522bc11894eaa",
+        "android_client_info": {
+          "package_name": "com.asmaamir.mlkitdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207783019679-bfqfvajn5lfdul1rk0n7otpr416n4u82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKeimaDvdo-XnR477Q1K0i1IjV7HMM1TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207783019679-bfqfvajn5lfdul1rk0n7otpr416n4u82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207783019679:android:e7cb901d48205744894eaa",
+        "android_client_info": {
+          "package_name": "com.example.face_detection_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207783019679-bfqfvajn5lfdul1rk0n7otpr416n4u82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKeimaDvdo-XnR477Q1K0i1IjV7HMM1TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207783019679-bfqfvajn5lfdul1rk0n7otpr416n4u82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

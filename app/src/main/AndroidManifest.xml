@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asmaamir.mlkitdemo">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Face Detection"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CustomModelDetection.CustomModelDetectionActivity"></activity>
+        <activity android:name=".CustomModelDetection.CustomModelDetectionActivity" />
+        <activity android:name=".CustomModelClassification.CustomModelActivityClassification" />
+        <activity android:name=".ImageClassificationLocalModel.ImageClassificationLocalModelActivity" />
+        <activity android:name=".ImageClassificationCustomModel.ImageClassificationActivity" />
+        <activity android:name=".FaceTracking.FaceTrackingActivity" />
+        <activity android:name=".RealTimeObjectDetection.RealTimeObjectDetectionActivity" />
+        <activity android:name=".CaptureFaceDetection.GalleryFaceDetectionActivity" />
+        <activity android:name=".RealTimeFaceDetection.RealTimeFaceDetectionActivity" />
+        <activity android:name=".CameraX.CameraxActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="face" />
+    </application>
+
+</manifest>
